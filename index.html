@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ganeshotsav • The Hidden Celebration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<div id="petals"></div>
+
+<div class="screen active" id="screen1">
+  <div class="top">ॐ <span>॥ श्री गणेशाय नमः ॥</span> 🪔</div>
+  <div class="garland">🌿 🌼 🌿 🌼 🌿 🌼 🌿</div>
+  <div class="hero-card">
+    <div class="mandala"><div class="mandala-text">शुभ<br>आरंभ</div><svg class="ganesha" viewBox="0 0 240 260" role="img" aria-label="Lord Ganesha">
+  <defs>
+    <linearGradient id="gBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb04a"/>
+      <stop offset="1" stop-color="#d95b22"/>
+    </linearGradient>
+    <linearGradient id="gCrown" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe18a"/>
+      <stop offset="1" stop-color="#c88619"/>
+    </linearGradient>
+  </defs>
+  <!-- crown -->
+  <path d="M82 72 L94 28 L112 51 L120 18 L132 50 L150 28 L158 72Z"
+        fill="url(#gCrown)" stroke="#7d3217" stroke-width="3"/>
+  <circle cx="120" cy="47" r="7" fill="#b52d20"/>
+  <!-- ears -->
+  <path d="M83 103 Q42 74 37 119 Q34 157 79 145 L91 125Z"
+        fill="#e9782b" stroke="#7d3217" stroke-width="4"/>
+  <path d="M157 103 Q198 74 203 119 Q206 157 161 145 L149 125Z"
+        fill="#e9782b" stroke="#7d3217" stroke-width="4"/>
+  <!-- face -->
+  <path d="M79 88 Q120 62 161 88 Q177 106 169 157 Q162 201 120 218 Q78 201 71 157 Q63 106 79 88Z"
+        fill="url(#gBody)" stroke="#7d3217" stroke-width="4"/>
+  <!-- eyes -->
+  <ellipse cx="101" cy="123" rx="7" ry="10" fill="#35100d"/>
+  <ellipse cx="139" cy="123" rx="7" ry="10" fill="#35100d"/>
+  <circle cx="103" cy="120" r="2" fill="#fff4d0"/>
+  <circle cx="141" cy="120" r="2" fill="#fff4d0"/>
+  <!-- tilak -->
+  <path d="M120 82 L113 99 L120 108 L127 99Z" fill="#a92d1c"/>
+  <path d="M120 91 L120 111" stroke="#a92d1c" stroke-width="3" stroke-linecap="round"/>
+  <!-- trunk -->
+  <path d="M120 132 Q120 159 108 174 Q101 184 110 196 Q122 208 136 193 Q145 183 139 171 Q133 159 137 139"
+        fill="#e46a25" stroke="#7d3217" stroke-width="4"/>
+  <path d="M108 194 Q120 202 134 193" fill="none" stroke="#7d3217" stroke-width="3"/>
+  <!-- smile -->
+  <path d="M103 178 Q120 188 137 178" fill="none" stroke="#7d3217" stroke-width="3" stroke-linecap="round"/>
+  <!-- ornaments -->
+  <circle cx="78" cy="174" r="7" fill="#f5c94f" stroke="#7d3217" stroke-width="2"/>
+  <circle cx="162" cy="174" r="7" fill="#f5c94f" stroke="#7d3217" stroke-width="2"/>
+  <!-- little modak -->
+  <path d="M91 218 Q120 205 149 218 L143 232 Q120 243 97 232Z"
+        fill="#f0b52f" stroke="#7d3217" stroke-width="3"/>
+  <path d="M99 220 Q120 230 141 220" fill="none" stroke="#fff0ad" stroke-width="2"/>
+</svg></div>
+    <div class="tiny">A SECRET WAITING BEHIND THE CELEBRATION</div>
+    <h1>The Festival<br><i>Awaits.</i></h1>
+    <p>Some doors open with a key.<br><b>This one opens with wisdom.</b></p>
+    <button class="main-btn" id="begin">ENTER THE CELEBRATION <span>→</span></button>
+  </div>
+  <div class="diyas">🪔　🪔　🪔</div>
+</div>
+
+<div class="screen" id="screen2">
+  <div class="top">ॐ <span>THE SACRED GATE</span> 🪔</div>
+  <div class="gate-card">
+    <div class="lock">🔐</div>
+    <div class="tiny">THE WAY FORWARD IS KNOWN ONLY TO THOSE WHO CAN READ THE SIGNS</div>
+    <h2>What word unlocks<br><i>the celebration?</i></h2>
+    <input id="password" type="password" placeholder="Enter the password" autocomplete="off">
+    <button class="main-btn" id="unlock">UNLOCK THE GATE ✦</button>
+    <div id="error"></div>
+    <div class="hint">✦ Think back to the clues. The answer is waiting there. ✦</div>
+  </div>
+</div>
+
+<div class="screen" id="screen3">
+  <div class="top">ॐ <span>GANPATI BAPPA MORYA!</span> 🪔</div>
+  <div class="success-card">
+    <div class="burst">✦ ✧ ✦ ✧ ✦</div>
+    <div class="check">✓</div>
+    <div class="tiny">THE GATE HAS OPENED</div>
+    <h2>Welcome to<br><i>the celebration.</i></h2>
+    <p>Your answer was accepted. But the journey isn't over yet...</p>
+    <div class="scroll">
+      <div class="scroll-title">🪔 THE NEXT CLUE 🪔</div>
+      <div class="seal">शुभ</div>
+      <div id="clue" class="clue hidden-clue">Where lamps gather and footsteps slow,<br>seek the place where the celebration begins.</div>
+      <button class="gold-btn" id="reveal">REVEAL THE CLUE</button>
+      <small id="note"></small>
+    </div>
+  </div>
+</div>
+
+<footer>Made with ✦ for your Ganeshotsav Treasure Hunt</footer>
+<script src="script.js"></script>
+</body>
+</html>
