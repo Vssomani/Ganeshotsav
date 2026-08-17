@@ -1,4 +1,4 @@
-const PASSWORD="Ganesha";
+const PASSWORD="veda";
 const NEXT_CLUE="Where lamps gather and footsteps slow,<br>seek the place where the celebration begins.";
 
 const s1=document.getElementById("screen1"),s2=document.getElementById("screen2"),s3=document.getElementById("screen3");
