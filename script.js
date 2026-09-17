@@ -1,5 +1,5 @@
 const PASSWORD="MODAKS";
-const NEXT_CLUE="My pages cannot fly, yet I have wings.<br>My author never had feathers yet he reached for the sky.";
+const NEXT_CLUE="My pages cannot fly, yet I have wings.<br>My author never had feathers yet he reached for the sky. Find me.";
 
 const s1=document.getElementById("screen1"),s2=document.getElementById("screen2"),s3=document.getElementById("screen3");
 const pass=document.getElementById("password"),err=document.getElementById("error");
