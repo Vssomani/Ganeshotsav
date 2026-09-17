@@ -1,5 +1,5 @@
-const PASSWORD="GANESHA";
-const NEXT_CLUE="Where lamps gather and footsteps slow,<br>seek the place where the celebration begins.";
+const PASSWORD="MODAKS";
+const NEXT_CLUE="My pages cannot fly, yet I have wings.<br>My author never had feathers yet he reached for the sky.";
 
 const s1=document.getElementById("screen1"),s2=document.getElementById("screen2"),s3=document.getElementById("screen3");
 const pass=document.getElementById("password"),err=document.getElementById("error");
